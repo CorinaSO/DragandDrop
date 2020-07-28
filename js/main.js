@@ -57,17 +57,19 @@ function cargarfruta(){
 	manejoEventos();
 }
 
-function inicializarElementos(){
-	var div = document.getElementById('mostrador');
-	div.innerHTML="";
-	cargarfruta();
-	var cesta= document.getElementById('cesta-compra');
-	cesta.innerHTML="";
-}
+// Intento de no recargar la página en el botón reset
+// function inicializarElementos(){
+// 	var div = document.getElementById('mostrador');
+// 	div.innerHTML="";
+// 	cargarfruta();
+// 	var cesta= document.getElementById('cesta-compra');
+// 	cesta.innerHTML="";
+// }
 
-function resetear(){
-	inicializarElementos();
-}
+
+// function resetear(){
+// 	inicializarElementos();
+// }
 
 
 
