@@ -12,6 +12,12 @@
 	max-width: 650px;
 }
 
+.div-fruta span{
+	display: none;
+	/* color: white;
+	margin: 5px; */
+}
+
 .fruta{
 	margin:2px;
 	padding: 2px;
